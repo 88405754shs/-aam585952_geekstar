@@ -19,3 +19,32 @@ Q2...
    }
 }
 Q3....
+ {
+ int x = 7+3+4;
+ int x = 12 + 5 + 8;
+ int x= 13/5 + 18/8;
+ double x= 12 + 5.0 + 2.76;
+ double x= 12/3 + 13/2;
+ double x=12/3 + 13.0/2;
+ double x=14/2 + 15.0/4;
+ double x= 13/2 % 5/3;
+ double x= 17.0/2 % 16.0/4;
+ Sysyem.out.println(x);
+   }
+ }
+ Q5....
+ public class Main {
+    public static void main(String[] args) {
+       // boolean ans = 3 > 2;
+      // boolean ans = 3 >= 3;
+        //boolean ans = 4 + 3 > 9;
+        //boolean ans = 10 + 8 > 10;
+        //boolean ans = 12 != 10;
+        //boolean ans = 13 == 13;
+        //boolean ans = 14 != 14;
+        //boolean ans = 20 == 5*4;
+        //boolean ans = 30 != 3+4-10;
+        boolean ans = 20 == 41/2;
+        System.out.println(ans);
+    }
+}
