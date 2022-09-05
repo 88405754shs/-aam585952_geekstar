@@ -1,0 +1,21 @@
+/<DAY 2>/
+Q1....
+ Scanner s= new Scanner(System.in);
+        
+         System.out.println("Enter the radius:");
+         int r= s.nextInt();
+         int  area=(22*r*r)/7 ;
+         System.out.println("Area of Circle is: " + area);      
+   }
+}
+Q2...
+ public static void main(String args[]) 
+    {   
+      Scanner s= new Scanner(System.in);
+         double x= s.nextDouble();
+        double y= s.nextDouble();
+         double  area=(x*y)/2 ;
+         System.out.println("Area of Circle is: " + area);      
+   }
+}
+Q3....
